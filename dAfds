@@ -1,0 +1,35 @@
+[33mcommit 55c8184ea4d5ed88ad4d509b6c168de9033a129b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: rivael <rivael.rodriguesjr@outlook.com>
+Date:   Wed Jul 3 21:51:26 2019 -0300
+
+    Cliente, TipoCliente, telefones e enderecos - Parte 1
+
+[33mcommit 9ece15ba9c8eac780dc4f38829766de5a389b3ec[m
+Author: rivael <rivael.rodriguesjr@outlook.com>
+Date:   Wed Jul 3 20:23:54 2019 -0300
+
+    Estado, cidade e tudo que deveria vir antes...
+
+[33mcommit 37edb04d352689c3fdbd17c5cff296b6fbc77c38[m
+Author: Rivael Rodrigues Jr <rivael.rodriguesjr@outlook.com>
+Date:   Fri Jun 28 16:00:41 2019 -0300
+
+    Banco de dados H2 e criação automática da base de dados
+
+[33mcommit 2056fb91dbcefecc20830f5eb34ce77a8d4c436d[m
+Author: Rivael Rodrigues Jr <rivael.rodriguesjr@outlook.com>
+Date:   Fri Jun 28 15:41:27 2019 -0300
+
+    Testando a primeira classe de domínio
+
+[33mcommit ea5d2452459a6ebb699d8473927b27b79bc07e33[m
+Author: Rivael Rodrigues Jr <rivael.rodriguesjr@outlook.com>
+Date:   Fri Jun 28 15:30:32 2019 -0300
+
+    REST testado
+
+[33mcommit 438f46370ea70a92dd9c9e1b4971002d27969caa[m
+Author: Rivael Rodrigues Jr <rivael.rodriguesjr@outlook.com>
+Date:   Fri Jun 28 15:18:08 2019 -0300
+
+    Projeto criado
