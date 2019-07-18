@@ -19,13 +19,13 @@ public class ItemPedido implements Serializable {
 	public ItemPedido() {
 	}
 
-	public ItemPedido(Pedido pedido, Produto produto, Double desconto, Integer quantidade, Double preco) {
+	public ItemPedido(Pedido pedido, Produto produto, Double desconto, Integer quantidade) {
 		super();
 		id.setPedido(pedido);
 		id.setProduto(produto);
 		this.desconto = desconto;
 		this.quantidade = quantidade;
-		this.preco = preco;
+		this.preco = produto.getPreco();
 	}
 
 	public Pedido getPedido() {
@@ -64,9 +64,9 @@ public class ItemPedido implements Serializable {
 		this.quantidade = quantidade;
 	}
 
-	public void setPreco(Double preco) {
-		this.preco = preco;
-	}
+//	public void setPreco(Double preco) {
+//		this.preco = preco;
+//	}
 
 	@Override
 	public int hashCode() {

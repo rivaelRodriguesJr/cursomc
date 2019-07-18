@@ -13,6 +13,7 @@ import com.rivaelrodriguesjr.cursomc.domains.Cidade;
 import com.rivaelrodriguesjr.cursomc.domains.Cliente;
 import com.rivaelrodriguesjr.cursomc.domains.Endereco;
 import com.rivaelrodriguesjr.cursomc.domains.Estado;
+import com.rivaelrodriguesjr.cursomc.domains.ItemPedido;
 import com.rivaelrodriguesjr.cursomc.domains.Pagamento;
 import com.rivaelrodriguesjr.cursomc.domains.PagamentoComBoleto;
 import com.rivaelrodriguesjr.cursomc.domains.PagamentoComCartao;
@@ -116,6 +117,10 @@ public class CursomcApplication implements CommandLineRunner{
 		
 		pedidoRepository.saveAll(Arrays.asList(ped1, ped2));
 		pagamentoRepository.saveAll(Arrays.asList(pagto1, pagto2));
+	
+		ItemPedido ip1 = new ItemPedido(ped1, p1, 0.00, 1);
+		ItemPedido ip2 = new ItemPedido(ped1, p3, 0.00, 2);
+		ItemPedido ip3 = new ItemPedido(ped2, p2, 100.00, 1);
 	}
 
 }
